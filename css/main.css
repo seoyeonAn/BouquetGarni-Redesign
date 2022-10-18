@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* slide */
+#slide {padding-top: 90px; width: 1180px; height: 670px; margin: 0 auto; overflow: hidden;}
+#slide .slideList {width: 10620px; height: 670px;}
+#slide .slideList .slideItem {float: left; position: relative;}
+/* //slide */
+
+/* contents */
+#contents {width: 1200px; margin: 0 auto; padding-top: 20px;}
+
+#contents .conArea {width: 100%; margin: 0 auto;}
+#contents .conArea h2 {text-align: center; font-size: 30px; padding: 10px 0;}
+#contents .conArea li {float: left; padding: 10px 20px; height: 400px;}
+#contents .conArea li .thumb {position: relative;}
+#contents .conArea li .thumb img {width: 250px; }
+
+#contents .conArea li .thumb span {position: absolute; display: block; width: 100%; height: 100%;}
+#contents .conArea li .thumb span:hover  {position:absolute; display: block; width: 250px; height: 250px; background: #e8c0c0; opacity: 0.3;}
+#contents .conArea li .proInfo {padding-top: 10px; width: 260px;}
+#contents .conArea li .proInfo .proTitle {font-size: 15px;}
+#contents .conArea li .proInfo .delPay {text-decoration: line-through;}
+#contents .conArea li .proInfo .pay {color: #c78686; font-weight: bold;}
+
+#contents .conArea .members {position: relative;}
+#contents .conArea .more {width: 200px; border: 1px solid #e8c0c0; padding: 15px 25px; position: absolute; bottom: 50px; right: 210px; text-align: center; font-size: 20px;}
+#contents .conArea .more:hover {background-color: #e8c0c0; color: #fff;}
+#contents .conArea .brand {position: relative; width: 1200px;}
+#contents .conArea .brand .more {position: absolute; bottom: 150px; left: 50%; transform: translate(-50%,0); color: #fff; border: 1px solid #fff; box-sizing: border-box; border-top-left-radius: 15px; border-bottom-right-radius: 15px;}
+#contents .conArea .brand .more:hover {background-color: rgba(240, 200, 250, 0.5); color: #fff;}
+
+/* //contents */

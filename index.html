@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="KO">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOUQUETGARNI</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/jquery-1.12.3.js"></script>
+    <script src="./js/common.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <!-- header -->
+        <header class="clearfix">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./img/topLogo.png" alt="부케가르니">
+                </a>
+            </div>
+            <div class="topNav clearfix">
+                <ul >
+                    <li>
+                        <a href="#">
+                            <img src="./img/icon/login.png" alt="login">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/icon/bag.png" alt="cart">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./img/icon/search.png" alt="search">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <nav class="clearfix">
+                <ul class="gnb">
+                    <li>
+                        <a href="./sub/brand.html">Brand</a>
+                        <div class="subArea">
+                            <div class="cateList brand">
+                                <ul class="sub">
+                                    <li>
+                                        <a href="./sub/brand.html">Brand Story</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Best</a>
+                        <div class="subArea">
+                            <div class="cateList best">
+                                <ul class="sub">
+                                    <li>
+                                        <a href="#">
+                                            신제품
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            향기별제품
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            대용량 &middot; 묶음상품
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            기프트 &middot; 여행용
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            전제품
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Product</a>
+                        <div class="subArea clearfix">
+                            <div class="cateList">
+                                <ul class="sub">
+                                    <li>
+                                        <h3><a href="#">헤어</a></h3>
+                                    </li>
+                                    <li>
+                                        <a href="#">샴푸</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">탈모샴푸&amp;토닉</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            트리트먼트
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            세럼
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="cateList">
+                                <ul class="sub">
+                                    <li>
+                                        <h3><a href="#">바디 &middot; 구강</a></h3>
+                                    </li>
+                                    <li>
+                                        <a href="#">바디워시</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            바디로션
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            바디미스트
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            바디스크럽
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            핸드워시 &middot; 크림
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            비누
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            구강
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div  class="cateList">
+                                <ul class="sub">
+                                    <h3><a href="#">방향 <span class="dot">&dot;</span> 리빙</a></h3>
+                                    <li>
+                                        <a href="#">
+                                            디퓨저 &middot; 차량방향
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            옷장향수 &middot; 제습제
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            섬유향수 &middot; 탈취제
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            캔들
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            섬유유연제
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            주방세제
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="cateList">
+                                <ul class="sub">
+                                    <h3><a href="#">메이크업</a></h3>
+                                    <li>
+                                        <a href="#">립 &middot; 틴트</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">고객센터</a>
+                        <div class="subArea">
+                            <div class="cateList cs">
+                                <ul class="sub">
+                                    <li>
+                                        <a href="#">고객센터</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">1:1상담</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">QNA</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">자주묻는질문</a>
+                                    </li>
+                                </ul>
+                            </div> 
+                        </div>
+                    </li>
+                </ul> 
+            </nav>
+            <div class="gnbBG"></div>
+        </header>
+        <!-- //header -->
+        <div id="slide">
+            <div class="slideList">
+                <div class="slideItem">
+                    <a href="#">
+                        <img src="./img/slide/slideItem1.jpg" alt="헤어&바디 골라담아 4종 29,900원">
+                    </a>
+                </div>
+                <div class="slideItem">
+                    <a href="#">
+                        <img src="./img/slide/slideItem2.jpg" alt="부케가르니 섬유탈취제 500ml 2개입 12,900원">
+                    </a>
+                </div>
+                <div class="slideItem">
+                    <a href="#">
+                        <img src="./img/slide/slideItem3.jpg" alt="부케가르니 딥 퍼퓸 섬유유연제 7,900원">
+                    </a>
+                </div>
+                <div class="slideItem">
+                    <a href="#">
+                        <img src="./img/slide/slideItem4.jpg" alt="1L 대용량 바디로션 2+1 증정 이벤트">
+                    </a>
+                </div>
+                <div class="slideItem">
+                    <a href="#">
+                        <img src="./img/slide/slideItem5.jpg" alt="부케가르니 그린리프 디퓨저 13,500원">
+                    </a>
+                </div>
+                <div class="slideItem">
+                    <a href="#">
+                        <img src="./img/slide/slideItem6.jpg" alt="부케가르니 블러썸 벨벳 틴트 1+1 9,900원 론칭 특가">
+                    </a>
+                </div>
+                <div class="slideItem">
+                    <a href="#">
+                        <img src="./img/slide/slideItem7.jpg" alt="부케가르니 퍼퓸드 샤쉐 4개입 8,900원">
+                    </a>
+                </div>
+                <div class="slideItem">
+                    <a href="#">
+                        <img src="./img/slide/slideItem8.jpg" alt="부케가르니 에코 1종 주방세제 3개입 9,900원">
+                    </a>
+                </div>
+                <div class="slideItem">
+                    <a href="#">
+                        <img src="./img/slide/slideItem9.jpg" alt="부케가르니 퍼퓸 바디미스트 1+1 9,900원">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- contents -->
+        <div id="contents">
+            <div class="conArea">
+                <div class="best clearfix">
+                    <h2>BEST</h2>
+                    <ul class="bestItem">
+                        <li>
+                            <a href="#">
+                                <div class="thumb">
+                                    <span></span>
+                                    <img src="./img/item/bestItem/bestthumb1.png" alt="[2+1] 부케가르니 바디로션 1L 향 2종">
+                                </div>
+                                <div class="proInfo">
+                                    <h4 class="proTitle">[2+1] 부케가르니 바디로션 1L 향 2종</h4>
+                                    <small class="delPay">78,000원</small><br>
+                                    <span class="pay">25,900원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumb">
+                                    <span></span>
+                                    <img src="./img/item/bestItem/bestthumb2.jpg" alt="[EVENT] 부케가르니 헤어&amp;바디 BEST 상품 4가지 원하는대로 골라담자!">
+                                </div>
+                                <div class="proInfo">
+                                    <h4 class="proTitle">[EVENT] 부케가르니 헤어&amp;바디 BEST 상품 4가지 원하는대로 골라담자!</h4>
+                                    <small class="delPay">72,000원</small><br>
+                                    <span class="pay">29,900원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumb">
+                                    <span></span>
+                                    <img src="./img/item/bestItem/bestthumb3.png" alt="부케가르니 섬유탈취제 500ml 향 6종 2개입 2개">
+                                </div>
+                                <div class="proInfo">
+                                    <h4 class="proTitle">부케가르니 섬유탈취제 500ml 향 6종 2개입 2개</h4>
+                                    <small class="delPay">50,000원</small><br>
+                                    <span class="pay">19,900원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumb">
+                                    <span></span>
+                                    <img src="./img/item/bestItem/bestthumb4.png" alt="[2+1] 부케가르니 바디워시 1L 향 4종">
+                                </div>
+                                <div class="proInfo">
+                                    <h4 class="proTitle">[2+1] 부케가르니 바디워시 1L 향 4종</h4>
+                                    <small class="delPay">78,000원</small><br>
+                                    <span class="pay">23,900원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumb">
+                                    <span></span>
+                                    <img src="./img/item/bestItem/bestThumb5.jpg" alt="[EVENT] 부케가르니 디퓨저 BEST 상품 3가지 원하는대로 골라담자!">
+                                </div>
+                                <div class="proInfo">
+                                    <h4 class="proTitle">[EVENT] 부케가르니 디퓨저 BEST 상품 3가지 원하는대로 골라담자!</h4>
+                                    <small class="delPay">90,000원</small><br>
+                                    <span class="pay">29,900원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumb">
+                                    <span></span>
+                                    <img src="./img/item/bestItem/bestthumb6.jpg" alt="[EVENT] 부케가르니 섬유케어 BEST 상품 3가지 원하는대로 골라담자!">
+                                </div>
+                                <div class="proInfo">
+                                    <h4 class="proTitle">[EVENT] 부케가르니 섬유케어 BEST 상품 3가지 원하는대로 골라담자!</h4>
+                                    <small class="delPay">54,000원</small><br>
+                                    <span class="pay">19,900원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumb">
+                                    <span></span>
+                                    <img src="./img/item/bestItem/bestthumb7.png" alt="부케가르니 145ml 바디미스트 1+1">
+                                </div>
+                                <div class="proInfo">
+                                    <h4 class="proTitle">부케가르니 145ml 바디미스트 1+1 (&starf;향 교차선택 가능)</h4>
+                                    <small class="delPay">33,000원</small><br>
+                                    <span class="pay">9,900원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumb">
+                                    <span></span>
+                                    <img src="./img/item/bestItem/bestthumb8.png" alt="[2+1] 부케가르니 바디로션 520ml 화이트머스크 향">
+                                </div>
+                                <div class="proInfo">
+                                    <h4 class="proTitle">[2+1] 부케가르니 바디로션 520ml 화이트머스크 향</h4>
+                                    <small class="delPay">33,000원</small><br>
+                                    <span class="pay">16,900원</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="members">
+                    <img src="./img/members.jpg" alt="멤버스 다양한 혜택">
+                    <a href="#" class="more">더 알아보기</a>
+                </div>
+                <div class="new">
+                    <h2>NEW ARRIVAL</h2>
+                    <ul class="newItem">
+                        <li>
+                            <a href="#">
+                                <div class="thumb">
+                                    <span></span>
+                                    <img src="./img/item/newItem/newItem1.png" alt="부케가르니 어반시크 차량용 디퓨저 50ml 2개입 소프트코튼 향">
+                                </div>
+                                <div class="proInfo">
+                                    <h4 class="proTitle">부케가르니 어반시크 차량용 디퓨저 50ml 2개입 소프트코튼 향</h4>
+                                    <small class="delPay">19,900원</small><br>
+                                    <span class="pay">9,900원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumb">
+                                    <span></span>
+                                    <img src="./img/item/newItem/newItem2.png" alt="부케가르니 어반시크 샤쉐 L 20g 2개입 베이비파우더 향">
+                                </div>
+                                <div class="proInfo">
+                                    <h4 class="proTitle">부케가르니 어반시크 샤쉐 L 20g 2개입 베이비파우더 향</h4>
+                                    <small class="delPay">8,000원</small><br>
+                                    <span class="pay">4,900원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumb">
+                                    <span></span>
+                                    <img src="./img/item/newItem/newItem3.png" alt="부케가르니 어반시크 디퓨저 200ml 2개입 소프트코튼 향">
+                                </div>
+                                <div class="proInfo">
+                                    <h4 class="proTitle">부케가르니 어반시크 디퓨저 200ml 2개입 소프트코튼 향</h4>
+                                    <small class="delPay">30,000원</small><br>
+                                    <span class="pay">13,900원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumb">
+                                    <span></span>
+                                    <img src="./img/item/newItem/newItem4.png" alt="부케가르니 치석 케어 치약 100g 레몬민트 향 3개입">
+                                </div>
+                                <div class="proInfo">
+                                    <h4 class="proTitle">부케가르니 치석 케어 치약 100g 레몬민트 향 3개입</h4>
+                                    <small class="delPay">26,000원</small><br>
+                                    <span class="pay">17,900원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumb">
+                                    <span></span>
+                                    <img src="./img/item/newItem/newItem5.png" alt="부케가르니 치석 케어 치약 100g 레몬민트 향 6개입">
+                                </div>
+                                <div class="proInfo">
+                                    <h4 class="proTitle">부케가르니 치석 케어 치약 100g 레몬민트 향 6개입</h4>
+                                    <small class="delPay">36,000원</small><br>
+                                    <span class="pay">17,900원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumb">
+                                    <span></span>
+                                    <img src="./img/item/newItem/newItem6.png" alt="부케가르니 딥 퍼퓸 비누 100g 10개입 프렌치라벤더 향">
+                                </div>
+                                <div class="proInfo">
+                                    <h4 class="proTitle">부케가르니 딥 퍼퓸 비누 100g 10개입 프렌치라벤더 향</h4>
+                                    <small class="delPay">22,000원</small><br>
+                                    <span class="pay">9,900원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumb">
+                                    <span></span>
+                                    <img src="./img/item/newItem/newItem7.png" alt="부케가르니 로열 프로폴리스 탈모 샴푸 1,000ml 화이트머스크 향">
+                                </div>
+                                <div class="proInfo">
+                                    <h4 class="proTitle">부케가르니 로열 프로폴리스 탈모 샴푸 1,000ml 화이트머스크 향</h4>
+                                    <small class="delPay">44,000원</small><br>
+                                    <span class="pay">19,900원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumb">
+                                    <span></span>
+                                    <img src="./img/item/newItem/newItem8.png" alt="[2+1] 부케가르니 바디로션 520ml 화이트머스크 향">
+                                </div>
+                                <div class="proInfo">
+                                    <h4 class="proTitle">부케가르니 로열 프로폴리스 헤어토닉 140ml 화이트머스크 향</h4>
+                                    <small class="delPay">28,000원</small><br>
+                                    <span class="pay">12,900원</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="special clearfix">
+                    <h2>SPECIAL</h2>
+                    <ul class="specialItem">
+                        <li>
+                            <a href="#">
+                                <div class="thumb">
+                                    <span></span>
+                                    <img src="./img/item/specialItem/specialItem1.png" alt="[2+1 이벤트] 부케가르니 200ml 바디로션 5종 (&starf;향 교차선택 가능)">
+                                </div>
+                                <div class="proInfo">
+                                    <h4 class="proTitle">[2+1 이벤트] 부케가르니 200ml 바디로션 5종 (&starf;향 교차선택 가능)</h4>
+                                    <small class="delPay">33,000원</small><br>
+                                    <span class="pay">9,900원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumb">
+                                    <span></span>
+                                    <img src="./img/item/specialItem/specialItem2.jpg" alt="[EVENT] 부케가르니 섬유케어 BEST상품 3가지 원하는대로 골라담자!">
+                                </div>
+                                <div class="proInfo">
+                                    <h4 class="proTitle">[EVENT] 부케가르니 섬유케어 BEST상품 3가지 원하는대로 골라담자!</h4>
+                                    <small class="delPay">54,000원</small><br>
+                                    <span class="pay">19,900원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumb">
+                                    <span></span>
+                                    <img src="./img/item/specialItem/specialItem3.png" alt="부케가르니 디퓨저 방향제 200ml 3개입 향 3종">
+                                </div>
+                                <div class="proInfo">
+                                    <h4 class="proTitle">부케가르니 디퓨저 방향제 200ml 3개입 향 3종</h4>
+                                    <small class="delPay">40,000원</small><br>
+                                    <span class="pay">17,900원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumb">
+                                    <span></span>
+                                    <img src="./img/item/specialItem/specialItem4.png" alt="부케가르니 디퓨저 방향제 200ml 4개입 향 4종">
+                                </div>
+                                <div class="proInfo">
+                                    <h4 class="proTitle">부케가르니 디퓨저 방향제 200ml 4개입 향 4종</h4>
+                                    <small class="delPay">48,000원</small><br>
+                                    <span class="pay">20,900원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumb">
+                                    <span></span>
+                                    <img src="./img/item/specialItem/specialItem5.png" alt="부케가르니 디퓨저 방향제 200ml 3개입 블랙체리 향">
+                                </div>
+                                <div class="proInfo">
+                                    <h4 class="proTitle">부케가르니 디퓨저 방향제 200ml 3개입 블랙체리 향</h4>
+                                    <small class="delPay">40,000원</small><br>
+                                    <span class="pay">17,900원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumb">
+                                    <span></span>
+                                    <img src="./img/item/specialItem/specialItem6.png" alt="부케가르니 디퓨저 방향제 200ml 3개입 소프트코튼 향">
+                                </div>
+                                <div class="proInfo">
+                                    <h4 class="proTitle">부케가르니 디퓨저 방향제 200ml 3개입 소프트코튼 향</h4>
+                                    <small class="delPay">40,000원</small><br>
+                                    <span class="pay">17,900원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumb">
+                                    <span></span>
+                                    <img src="./img/item/specialItem/specialItem7.png" alt="부케가르니 섬유탈취제 500ml 향 6종 2개입 2개">
+                                </div>
+                                <div class="proInfo">
+                                    <h4 class="proTitle">부케가르니 섬유탈취제 500ml 향 6종 2개입 2개</h4>
+                                    <small class="delPay">50,000원</small><br>
+                                    <span class="pay">19,900원</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="brand">
+                    <img src="./img/brand.jpg" alt="브랜드 소개">
+                    <a href="./sub/brand.html" class="more">더 알아보기</a>
+                </div>
+            </div>
+        </div>
+        <!-- //contents -->
+        <!-- footer -->
+        <footer class="clearfix">
+            <section class="copy">
+                <span>Copyright &copy; 2022 부케가르니 All right reserved.</span>
+                <img src="./img/footer_nice.png" alt="nice">
+            </section>
+            <section class="cs">
+                <h4>CS CENTER</h4>
+                <p>070-7716-3164</p>
+                <p>평일 AM 10:00 ~ PM 17:00</p>
+                <p>점심 PM 13:00 ~ PM 14:00</p>
+                <p>토/일/공휴일 휴무</p>
+            </section>
+            <section class="bank">
+                <h4>BANK INFO</h4>
+                <p>신한은행 100-031-009385</p>
+                <p>예금주. (주)브리드비인터내셔널</p>
+            </section>
+            <section class="company">
+                <h4>COMPANY INFO</h4>
+                <p>(주)브리드비인터내셔널</p>
+                <p>CEO. 김동근, 김동환</p>
+                <p>E-MAIL : bouquetgarni@grunamu.com</p>
+                <p>주소. 대구광역시 달성군 다사읍 달구벌대로174길 10-9 DS타운 4층</p>
+                <p>사업자 등록번호 안내. [141-81-42329]</p>
+                <p>통신판매업 신고. 제 2015-대구달성-0045 호[사업자정보확인]</p>
+            </section>
+        </footer>
+        <!-- //footer -->
+    </div>
+</body>
+</html>
